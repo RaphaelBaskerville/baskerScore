@@ -23,7 +23,7 @@ var allPerms = function (arr) {
       // pass the accumulation into a recursive call
       //pass in i+1 as a starting place for the recursive call's for loop
       myPerm(sum , i+1)
-      //on each iteration, return the accumulation to its state at the 
+      //At the end of each iteration, return the accumulation to its state at the 
       //begining of that iteration so each iteration of the for loop 
       //checks ONLY that value against everyother value.
       //or as the author of the original code vaguely put it...
