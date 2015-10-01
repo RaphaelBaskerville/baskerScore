@@ -5,7 +5,7 @@ var arr = ["a","b","c","d","e","f"]
 //stolen from a coderbyte solution 
 //changed around a bit to work for letters instead of numbers.
 
-//but this one gives you every combination of an array of letters
+//gives you every combination of an array of letters
 var allPerms = function (arr) {
   //create a results array
   var results = [];
